@@ -1,0 +1,9 @@
+{
+  "eslint.autoFixOnSave": true,
+  "git.addedSign.hlGroup": "CocListFgGreen",
+  "git.changedSign.hlGroup": "CocListFgYellow",
+  "git.changeRemovedSign.hlGroup": "CocListFgRed",
+  "git.removedSign.hlGroup": "CocListFgRed",
+  "git.topRemovedSign.hlGroup": "CocListFgRed",
+  "vetur.validation.templateProps": true
+}
