@@ -1,0 +1,39 @@
+[advice]
+	skippedCherryPicks = false
+[alias]
+	br = branch
+	ci = commit
+	last = log -n 1 --format=fuller
+	ss = status
+	wip = !git add . && git ci -m \"WIP\"
+[commit]
+	gpgsign = true
+[core]
+	editor = nvim
+	ignorecase = false
+	quotePath = false
+	pager = delta
+[delta]
+	dark = true
+	navigate = true
+[fetch]
+	prune = true
+[format]
+	pretty = oneline
+[init]
+	defaultBranch = main
+[interactive]
+	diffFilter = delta --color-only
+[log]
+	abbrevCommit = true
+[merge]
+	conflictstyle = zdiff3
+[pull]
+	rebase = false
+[rebase]
+	autoSquash = true
+	autoStash = true
+[user]
+	name = vanppo
+	email = vanppo@hotmail.com
+	signingkey = A64B9303EAF1CA40
