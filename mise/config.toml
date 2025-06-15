@@ -1,0 +1,8 @@
+[tools]
+deno = "2.2.4"
+elixir = "1.17.3"
+erlang = "27.1.2"
+node = "20.18.0"
+poetry = "2.1.2"
+python = "3.12.10"
+rust = "1.85.0"
