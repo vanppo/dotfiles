@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "env": {
+    "DISABLE_BUG_COMMAND": "true",
+    "DISABLE_COST_WARNINGS": "true",
+    "DISABLE_ERROR_REPORTING": "true",
+    "DISABLE_TELEMETRY": "true",
+    "EDITOR": "nvim"
+  },
+  "includeCoAuthoredBy": false,
+  "enabledPlugins": {
+    "code-documentation@claude-code-workflows": true,
+    "debugging-toolkit@claude-code-workflows": true,
+    "git-pr-workflows@claude-code-workflows": true,
+    "backend-development@claude-code-workflows": true,
+    "frontend-mobile-development@claude-code-workflows": true,
+    "unit-testing@claude-code-workflows": true,
+    "code-review-ai@claude-code-workflows": true,
+    "javascript-typescript@claude-code-workflows": true,
+    "full-stack-orchestration@claude-code-workflows": true,
+    "python-development@claude-code-workflows": true
+  },
+  "alwaysThinkingEnabled": true
+}
