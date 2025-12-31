@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "alwaysThinkingEnabled": true,
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  },
+  "enabledPlugins": {
+    "context7@claude-plugins-official": true,
+    "code-review@claude-plugins-official": true
+  },
+  "env": {
+    "DISABLE_AUTOUPDATER": "true",
+    "DISABLE_BUG_COMMAND": "true",
+    "DISABLE_COST_WARNINGS": "true",
+    "DISABLE_ERROR_REPORTING": "true",
+    "DISABLE_TELEMETRY": "true",
+    "EDITOR": "nvim"
+  },
+  "hooks": {
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay ~/Library/Sounds/Glass.aiff"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "afplay ~/Library/Sounds/Microwave.aiff"
+          }
+        ]
+      }
+    ]
+  }
+}
