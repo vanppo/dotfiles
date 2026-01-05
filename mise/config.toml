@@ -1,0 +1,7 @@
+[tools]
+deno = "2.2.4"
+elixir = "1.18.4-otp-27"
+erlang = "27.3.4"
+node = "22.16.0"
+rust = "1.85.0"
+uv = "latest"
