@@ -1,0 +1,41 @@
+[advice]
+	skippedCherryPicks = false
+[alias]
+	br = branch
+	ci = commit
+	last = log --format=fuller --max-count=1
+	ss = status
+[commit]
+	gpgsign = true
+[core]
+	editor = nvim
+	ignorecase = false
+	quotePath = false
+	pager = delta
+[delta]
+	dark = true
+	line-numbers = true
+	navigate = true
+[fetch]
+	prune = true
+[format]
+	pretty = oneline
+[init]
+	defaultBranch = main
+[interactive]
+	diffFilter = delta --color-only
+[log]
+	abbrevCommit = true
+[merge]
+	conflictstyle = zdiff3
+[pull]
+	rebase = false
+[rebase]
+	autoSquash = true
+	autoStash = true
+[status]
+	showUntrackedFiles = all
+[user]
+	name = vanppo
+	email = vanppo@hotmail.com
+	signingkey = A64B9303EAF1CA40
