@@ -1,0 +1,19 @@
+# vim: ft=ghostty
+
+theme = Catppuccin Macchiato
+
+font-family = "Iosevka SS02"
+font-family = "Iosevka Nerd Font"
+
+copy-on-select = clipboard
+macos-option-as-alt = true
+
+keybind = alt+b=esc:b
+keybind = alt+f=esc:f
+keybind = alt+q=esc:q
+keybind = super+enter=text:\x1B\x0A
+keybind = shift+enter=text:\x1B\x0D
+keybind = super+shift+k=jump_to_prompt:-1
+keybind = super+shift+j=jump_to_prompt:1
+keybind = super+shift+h=move_tab:-1
+keybind = super+shift+l=move_tab:1
