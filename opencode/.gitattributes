@@ -1,0 +1,2 @@
+*.json filter=git-crypt diff=git-crypt
+*.md filter=git-crypt diff=git-crypt

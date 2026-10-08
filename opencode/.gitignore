@@ -1,0 +1,9 @@
+*
+!skills/
+!skills/**
+!.gitattributes
+!.gitignore
+!COMMANDMENTS.md
+!CONSTITUTION.md
+!cli.json
+!opencode.json
